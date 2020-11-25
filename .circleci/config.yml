@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - newman/newman-run:
-          collection: ./apitest/CircleCI-Postman-Base.postman_collection.json
+          collection: ./api-test/CircleCI-Postman-Base.restcountries.postman_collection.json
 workflows:
   main:
     jobs:
